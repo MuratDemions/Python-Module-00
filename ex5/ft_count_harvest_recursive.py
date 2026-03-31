@@ -2,7 +2,7 @@ def helper(i, count):
     if i > count:
         print("Harvest time!")
         return
-    print("Day ", i)
+    print("Day", i)
     helper(i + 1, count)
 
 
